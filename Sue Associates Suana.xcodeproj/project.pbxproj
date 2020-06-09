@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EBBDB16248F7B240058F94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBBDB15248F7B240058F94F /* AppDelegate.swift */; };
+		7EBBDB18248F7B240058F94F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBBDB17248F7B240058F94F /* ViewController.swift */; };
+		7EBBDB1B248F7B240058F94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBBDB19248F7B240058F94F /* Main.storyboard */; };
+		7EBBDB1D248F7B260058F94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBBDB1C248F7B260058F94F /* Assets.xcassets */; };
+		7EBBDB20248F7B260058F94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBBDB1E248F7B260058F94F /* LaunchScreen.storyboard */; };
+		7EBBDB2B248F7B260058F94F /* Sue_Associates_SuanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBBDB2A248F7B260058F94F /* Sue_Associates_SuanaTests.swift */; };
+		7EBBDB36248F7B260058F94F /* Sue_Associates_SuanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBBDB35248F7B260058F94F /* Sue_Associates_SuanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EBBDB27248F7B260058F94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EBBDB0A248F7B230058F94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EBBDB11248F7B240058F94F;
+			remoteInfo = "Sue Associates Suana";
+		};
+		7EBBDB32248F7B260058F94F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EBBDB0A248F7B230058F94F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EBBDB11248F7B240058F94F;
+			remoteInfo = "Sue Associates Suana";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EBBDB12248F7B240058F94F /* Sue Associates Suana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sue Associates Suana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBBDB15248F7B240058F94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EBBDB17248F7B240058F94F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EBBDB1A248F7B240058F94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EBBDB1C248F7B260058F94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EBBDB1F248F7B260058F94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EBBDB21248F7B260058F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBBDB26248F7B260058F94F /* Sue Associates SuanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sue Associates SuanaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBBDB2A248F7B260058F94F /* Sue_Associates_SuanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sue_Associates_SuanaTests.swift; sourceTree = "<group>"; };
+		7EBBDB2C248F7B260058F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBBDB31248F7B260058F94F /* Sue Associates SuanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sue Associates SuanaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBBDB35248F7B260058F94F /* Sue_Associates_SuanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sue_Associates_SuanaUITests.swift; sourceTree = "<group>"; };
+		7EBBDB37248F7B260058F94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EBBDB0F248F7B240058F94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBBDB23248F7B260058F94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBBDB2E248F7B260058F94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EBBDB09248F7B230058F94F = {
+			isa = PBXGroup;
+			children = (
+				7EBBDB14248F7B240058F94F /* Sue Associates Suana */,
+				7EBBDB29248F7B260058F94F /* Sue Associates SuanaTests */,
+				7EBBDB34248F7B260058F94F /* Sue Associates SuanaUITests */,
+				7EBBDB13248F7B240058F94F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBBDB13248F7B240058F94F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EBBDB12248F7B240058F94F /* Sue Associates Suana.app */,
+				7EBBDB26248F7B260058F94F /* Sue Associates SuanaTests.xctest */,
+				7EBBDB31248F7B260058F94F /* Sue Associates SuanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EBBDB14248F7B240058F94F /* Sue Associates Suana */ = {
+			isa = PBXGroup;
+			children = (
+				7EBBDB15248F7B240058F94F /* AppDelegate.swift */,
+				7EBBDB17248F7B240058F94F /* ViewController.swift */,
+				7EBBDB19248F7B240058F94F /* Main.storyboard */,
+				7EBBDB1C248F7B260058F94F /* Assets.xcassets */,
+				7EBBDB1E248F7B260058F94F /* LaunchScreen.storyboard */,
+				7EBBDB21248F7B260058F94F /* Info.plist */,
+			);
+			path = "Sue Associates Suana";
+			sourceTree = "<group>";
+		};
+		7EBBDB29248F7B260058F94F /* Sue Associates SuanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EBBDB2A248F7B260058F94F /* Sue_Associates_SuanaTests.swift */,
+				7EBBDB2C248F7B260058F94F /* Info.plist */,
+			);
+			path = "Sue Associates SuanaTests";
+			sourceTree = "<group>";
+		};
+		7EBBDB34248F7B260058F94F /* Sue Associates SuanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EBBDB35248F7B260058F94F /* Sue_Associates_SuanaUITests.swift */,
+				7EBBDB37248F7B260058F94F /* Info.plist */,
+			);
+			path = "Sue Associates SuanaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EBBDB11248F7B240058F94F /* Sue Associates Suana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBBDB3A248F7B260058F94F /* Build configuration list for PBXNativeTarget "Sue Associates Suana" */;
+			buildPhases = (
+				7EBBDB0E248F7B240058F94F /* Sources */,
+				7EBBDB0F248F7B240058F94F /* Frameworks */,
+				7EBBDB10248F7B240058F94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sue Associates Suana";
+			productName = "Sue Associates Suana";
+			productReference = 7EBBDB12248F7B240058F94F /* Sue Associates Suana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EBBDB25248F7B260058F94F /* Sue Associates SuanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBBDB3D248F7B260058F94F /* Build configuration list for PBXNativeTarget "Sue Associates SuanaTests" */;
+			buildPhases = (
+				7EBBDB22248F7B260058F94F /* Sources */,
+				7EBBDB23248F7B260058F94F /* Frameworks */,
+				7EBBDB24248F7B260058F94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EBBDB28248F7B260058F94F /* PBXTargetDependency */,
+			);
+			name = "Sue Associates SuanaTests";
+			productName = "Sue Associates SuanaTests";
+			productReference = 7EBBDB26248F7B260058F94F /* Sue Associates SuanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EBBDB30248F7B260058F94F /* Sue Associates SuanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EBBDB40248F7B260058F94F /* Build configuration list for PBXNativeTarget "Sue Associates SuanaUITests" */;
+			buildPhases = (
+				7EBBDB2D248F7B260058F94F /* Sources */,
+				7EBBDB2E248F7B260058F94F /* Frameworks */,
+				7EBBDB2F248F7B260058F94F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EBBDB33248F7B260058F94F /* PBXTargetDependency */,
+			);
+			name = "Sue Associates SuanaUITests";
+			productName = "Sue Associates SuanaUITests";
+			productReference = 7EBBDB31248F7B260058F94F /* Sue Associates SuanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EBBDB0A248F7B230058F94F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Cameron Nagai";
+				TargetAttributes = {
+					7EBBDB11248F7B240058F94F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7EBBDB25248F7B260058F94F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7EBBDB11248F7B240058F94F;
+					};
+					7EBBDB30248F7B260058F94F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7EBBDB11248F7B240058F94F;
+					};
+				};
+			};
+			buildConfigurationList = 7EBBDB0D248F7B230058F94F /* Build configuration list for PBXProject "Sue Associates Suana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EBBDB09248F7B230058F94F;
+			productRefGroup = 7EBBDB13248F7B240058F94F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EBBDB11248F7B240058F94F /* Sue Associates Suana */,
+				7EBBDB25248F7B260058F94F /* Sue Associates SuanaTests */,
+				7EBBDB30248F7B260058F94F /* Sue Associates SuanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EBBDB10248F7B240058F94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBBDB20248F7B260058F94F /* LaunchScreen.storyboard in Resources */,
+				7EBBDB1D248F7B260058F94F /* Assets.xcassets in Resources */,
+				7EBBDB1B248F7B240058F94F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBBDB24248F7B260058F94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBBDB2F248F7B260058F94F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EBBDB0E248F7B240058F94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBBDB18248F7B240058F94F /* ViewController.swift in Sources */,
+				7EBBDB16248F7B240058F94F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBBDB22248F7B260058F94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBBDB2B248F7B260058F94F /* Sue_Associates_SuanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EBBDB2D248F7B260058F94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBBDB36248F7B260058F94F /* Sue_Associates_SuanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EBBDB28248F7B260058F94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EBBDB11248F7B240058F94F /* Sue Associates Suana */;
+			targetProxy = 7EBBDB27248F7B260058F94F /* PBXContainerItemProxy */;
+		};
+		7EBBDB33248F7B260058F94F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EBBDB11248F7B240058F94F /* Sue Associates Suana */;
+			targetProxy = 7EBBDB32248F7B260058F94F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EBBDB19248F7B240058F94F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBBDB1A248F7B240058F94F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EBBDB1E248F7B260058F94F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EBBDB1F248F7B260058F94F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EBBDB38248F7B260058F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EBBDB39248F7B260058F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EBBDB3B248F7B260058F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW2J9L5375;
+				INFOPLIST_FILE = "Sue Associates Suana/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.Sue-Associates-Suana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EBBDB3C248F7B260058F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW2J9L5375;
+				INFOPLIST_FILE = "Sue Associates Suana/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.Sue-Associates-Suana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EBBDB3E248F7B260058F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW2J9L5375;
+				INFOPLIST_FILE = "Sue Associates SuanaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.Sue-Associates-SuanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sue Associates Suana.app/Sue Associates Suana";
+			};
+			name = Debug;
+		};
+		7EBBDB3F248F7B260058F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW2J9L5375;
+				INFOPLIST_FILE = "Sue Associates SuanaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.Sue-Associates-SuanaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sue Associates Suana.app/Sue Associates Suana";
+			};
+			name = Release;
+		};
+		7EBBDB41248F7B260058F94F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW2J9L5375;
+				INFOPLIST_FILE = "Sue Associates SuanaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.Sue-Associates-SuanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sue Associates Suana";
+			};
+			name = Debug;
+		};
+		7EBBDB42248F7B260058F94F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LW2J9L5375;
+				INFOPLIST_FILE = "Sue Associates SuanaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cam.Sue-Associates-SuanaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sue Associates Suana";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EBBDB0D248F7B230058F94F /* Build configuration list for PBXProject "Sue Associates Suana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBBDB38248F7B260058F94F /* Debug */,
+				7EBBDB39248F7B260058F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBBDB3A248F7B260058F94F /* Build configuration list for PBXNativeTarget "Sue Associates Suana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBBDB3B248F7B260058F94F /* Debug */,
+				7EBBDB3C248F7B260058F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBBDB3D248F7B260058F94F /* Build configuration list for PBXNativeTarget "Sue Associates SuanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBBDB3E248F7B260058F94F /* Debug */,
+				7EBBDB3F248F7B260058F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EBBDB40248F7B260058F94F /* Build configuration list for PBXNativeTarget "Sue Associates SuanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EBBDB41248F7B260058F94F /* Debug */,
+				7EBBDB42248F7B260058F94F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EBBDB0A248F7B230058F94F /* Project object */;
+}
